@@ -1,0 +1,92 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Virtual environments ──
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ── TensorFlow / Keras ──
+*.h5
+*.keras
+*.hdf5
+*.pb
+saved_model/
+checkpoints/
+logs/
+tensorboard_logs/
+*.ckpt
+*.ckpt.*
+
+# ── PyTorch ──
+*.pt
+*.pth
+*.tar
+lightning_logs/
+
+# ── Model artifacts (download via scripts/download_model.py instead) ──
+models/*.h5
+models/*.keras
+models/config.json
+models/model_weights.h5
+models/metadata.json
+!models/.gitkeep
+
+# ── Datasets ──
+data/
+dataset/
+datasets/
+Split_smol/
+*.zip
+*.tar.gz
+*.csv
+!sample_data/**/*.csv
+
+# ── VS Code ──
+.vscode/
+*.code-workspace
+
+# ── PyCharm ──
+.idea/
+
+# ── Environment / secrets ──
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── OS / cache files ──
+.DS_Store
+Thumbs.db
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Flask ──
+instance/
+.flaskenv
+
+# ── Misc ──
+*.bak
+*.tmp
+*.swp
