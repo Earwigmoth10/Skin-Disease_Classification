@@ -44,7 +44,40 @@ Upload a photo of a skin lesion and receive instantly:
 - Server-side and client-side upload validation
 
 ---
+# 📊 Dataset
 
+This project was trained using the publicly available **Skin Disease Classification Image Dataset** published on Kaggle.
+
+**Dataset Information**
+- Dataset Name: Skin Disease Classification [Image Dataset]
+- Total Images: 900
+- Number of Classes: 9
+- Train/Validation Split: 80/20
+- Source: Kaggle
+
+### Dataset Classes
+
+- Actinic keratosis
+- Atopic Dermatitis
+- Benign keratosis
+- Dermatofibroma
+- Melanocytic nevus
+- Melanoma
+- Squamous cell carcinoma
+- Tinea Ringworm Candidiasis
+- Vascular lesion
+
+### Dataset Source
+
+🔗 Dataset URL:
+
+https://www.kaggle.com/datasets/riyaelizashaju/skin-disease-classification-image-dataset
+
+### Citation
+
+If you use this project or dataset, please credit the original dataset author:
+
+> Riya Eliza Shaju, *Skin Disease Classification Image Dataset*, Kaggle.
 # 🩹 Supported Conditions
 
 | Condition | Category |
@@ -274,40 +307,7 @@ This project is distributed under the **MIT License**.
 See the `LICENSE` file for details.
 
 ---
-# 📊 Dataset
 
-This project was trained using the publicly available **Skin Disease Classification Image Dataset** published on Kaggle.
-
-**Dataset Information**
-- Dataset Name: Skin Disease Classification [Image Dataset]
-- Total Images: 900
-- Number of Classes: 9
-- Train/Validation Split: 80/20
-- Source: Kaggle
-
-### Dataset Classes
-
-- Actinic keratosis
-- Atopic Dermatitis
-- Benign keratosis
-- Dermatofibroma
-- Melanocytic nevus
-- Melanoma
-- Squamous cell carcinoma
-- Tinea Ringworm Candidiasis
-- Vascular lesion
-
-### Dataset Source
-
-🔗 Dataset URL:
-
-:contentReference[oaicite:1]{index=1}
-
-### Citation
-
-If you use this project or dataset, please credit the original dataset author:
-
-> Riya Eliza Shaju, *Skin Disease Classification Image Dataset*, Kaggle.
 # 🙏 Acknowledgements
 
 - MobileNetV2 — Sandler et al.
